@@ -1,0 +1,122 @@
+#welcome {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 100px;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background-image: url(moose_maisema_pelkka.jpg);
+    background-size: cover;
+}
+
+hr {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 20%;
+    margin: 20px auto;
+}
+
+#mdhr {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 30%;
+    margin: 20px auto;
+}
+
+button {
+    border-radius: 30px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttoncontainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.664);
+    cursor: pointer;
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadeIn 2s forwards; 
+    animation-delay: 0.5s;
+}
+
+.fadein2 {
+    opacity: 0;
+    animation: fadeIn 2s forwards; 
+    animation-delay: 2s;
+}
+
+.fadein3 {
+    opacity: 0;
+    animation: fadeIn 3s forwards; 
+    animation-delay: 6s;
+}
+
+.fadein4 {
+    opacity: 0;
+    animation: fadeIn 3s forwards; 
+    animation-delay: 4s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+p {
+    color: white;
+    border-radius: 10px;
+}
+
+/* input {
+    border-radius: 20px;
+    width: 50%;
+    height: 30vh;
+    background-color: transparent;
+    color: white;
+    margin: 30px auto;
+    border-color: purple;
+    font-size: 100px;  
+
+} */
+
+#introduction {
+    border-radius: 20px;
+    width: 50%;
+    height: 30vh;
+    background-color: transparent;
+    color: white;
+    margin: 30px auto;
+    border-color: transparent;
+    font-size: 50px;
+    margin-left: 470px;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
